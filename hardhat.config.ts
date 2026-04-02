@@ -11,7 +11,7 @@ export default defineConfig({
     version: "0.8.28",
   },
   paths: {
-    sources: 'lib/contracts',
+    sources: ['lib/contracts', 'lib/test/contracts'],
     tests: 'lib/test',
   }
 });
